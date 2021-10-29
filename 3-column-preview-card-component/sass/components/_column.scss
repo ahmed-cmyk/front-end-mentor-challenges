@@ -3,7 +3,16 @@
     padding: 4rem;
 
     &_head {
-        font-size: 3rem;
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 2.5rem;
+        padding-top: 30px;
+    }
+
+    &_paragraph {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 0.8rem;
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
 
     &--1 {

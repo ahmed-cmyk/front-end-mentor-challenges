@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
 *,
 *::after,
 *::before {
@@ -8,8 +10,13 @@
 body {
   font-size: 15px; }
 
+p.top-30 {
+  margin-top: 2rem; }
+
+p.bottom-45 {
+  margin-bottom: 3rem !important; }
+
 .body {
-  border: 1px solid black;
   display: flex;
   top: 50%;
   left: 50%;
@@ -20,7 +27,14 @@ body {
   color: #fff;
   padding: 4rem; }
   .column_head {
-    font-size: 3rem; }
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+    padding-top: 30px; }
+  .column_paragraph {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.8rem;
+    padding-top: 30px;
+    padding-bottom: 50px; }
   .column--1 {
     background: #e38826; }
   .column--2 {
