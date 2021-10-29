@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  font-size: 15px; }
+
+.body {
+  border: 1px solid black;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%); }
+
+.column {
+  color: #fff;
+  padding: 4rem; }
+  .column_head {
+    font-size: 3rem; }
+  .column--1 {
+    background: #e38826; }
+  .column--2 {
+    background: #006970; }
+  .column--3 {
+    background: #004241; }

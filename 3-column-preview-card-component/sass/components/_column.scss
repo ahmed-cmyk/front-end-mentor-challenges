@@ -1,0 +1,20 @@
+.column {
+    color: #fff;
+    padding: 4rem;
+
+    &_head {
+        font-size: 3rem;
+    }
+
+    &--1 {
+        background: $bright-orange;
+    }
+
+    &--2 {
+        background: $dark-cyan;
+    }
+
+    &--3 {
+        background: $very-dark-cyan;
+    }
+}
