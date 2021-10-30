@@ -1,7 +1,15 @@
 .body {
     display: flex;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50% , -50%);
+    flex-wrap: wrap;
+    margin: 1em;
+    background: $very-light-gray;
+
+    @media (min-width: 650px) {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50% , -50%);
+        flex-wrap: nowrap;
+        margin: 0;
+    }
 }

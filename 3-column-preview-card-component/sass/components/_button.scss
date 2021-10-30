@@ -1,0 +1,25 @@
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.button {
+    background: $very-light-gray;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-family: 'Lexend Deca', sans-serif;
+
+    &--1 {
+        color: $bright-orange;   
+    }
+
+    &--2 {
+        color: $dark-cyan;   
+    }
+
+    &--3 {
+        color: $very-dark-cyan;   
+    }
+}

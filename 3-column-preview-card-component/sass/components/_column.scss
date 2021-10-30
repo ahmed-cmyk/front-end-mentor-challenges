@@ -1,18 +1,23 @@
+.columnContainer {
+    padding-top: 30px;
+    min-height: 15em;
+}
+
 .column {
     color: #fff;
-    padding: 4rem;
+    padding: 2.5rem;
 
     &_head {
         font-family: 'Big Shoulders Display', cursive;
         font-size: 2.5rem;
-        padding-top: 30px;
+        color: $transparent-white;
     }
 
     &_paragraph {
         font-family: 'Lexend Deca', sans-serif;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         padding-top: 30px;
-        padding-bottom: 50px;
+        color: $very-light-gray;
     }
 
     &--1 {
