@@ -1,10 +1,11 @@
 import './css/style.css'
 import Attribution from './components/Attribution';
+import Cards from './components/Cards';
 
 const App = () => {
   return (
     <div>
-      <div>Hello react</div>
+      <Cards />
       <Attribution />
     </div>
   )
