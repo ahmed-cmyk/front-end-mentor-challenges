@@ -1,0 +1,15 @@
+.activity_card {
+    &_top {
+        display: block;
+        background: $light-red-work;
+        width: 100%;
+    }
+
+    &_bottom {
+        display: block;
+    }
+
+    &_img {
+        background: transparent;
+    }
+}

@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    margin-bottom: 5em;
+
+    &_left {
+        flex-grow: 1;
+    }
+
+    &_right {
+        flex-grow: 2;
+    }
+
+    &_section {
+        padding: 1em;
+    }
+}

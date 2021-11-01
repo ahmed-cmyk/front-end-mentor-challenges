@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  background: #0f1424;
+  color: white; }
+
+body {
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif; }
+
+.text_head {
+  font-size: 1.2rem; }
+
+.text_subhead {
+  color: gray;
+  font-size: 0.8rem; }
+
+.activity_card_top {
+  display: block;
+  background: #ff8c66;
+  width: 100%; }
+
+.activity_card_bottom {
+  display: block; }
+
+.activity_card_img {
+  background: transparent; }
+
+.button {
+  background: transparent;
+  border: none;
+  color: gray;
+  padding: 0 1.5em;
+  font-size: 1rem; }
+
+.active {
+  color: white; }
+
+.card {
+  display: flex;
+  margin-bottom: 5em; }
+  .card_left {
+    flex-grow: 1; }
+  .card_right {
+    flex-grow: 2; }
+  .card_section {
+    padding: 1em; }
+
+.container {
+  padding: 1em; }
+
+.profile_head {
+  background: #5847eb;
+  border-radius: 20px; }
+
+.profile_img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 4em; }
+
+.profile_text {
+  align-self: center;
+  justify-self: end;
+  font-size: 1rem; }
+
+.profile_bottom {
+  display: flex;
+  flex-grow: 2;
+  position: absolute;
+  border-radius: 20px;
+  top: 20px;
+  background: #1c1f4a;
+  height: 130px;
+  align-items: flex-end;
+  z-index: -1; }
+  .profile_bottom > button {
+    flex-grow: 1; }

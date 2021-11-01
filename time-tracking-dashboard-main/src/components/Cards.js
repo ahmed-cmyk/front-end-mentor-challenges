@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 import Card from './Card'
+import Profile from './Profile'
 import activityService from '../services/activities'
 
 const Cards = () => {
@@ -16,13 +17,8 @@ const Cards = () => {
     }, [])
 
     return(
-        <div>
-            Report for
-            Jeremy Robson
-
-            Daily
-            Weekly
-            Monthly
+        <div className="container">
+            <Profile />
             {cards.map((card, index) => 
                 <Card key={index} card={card} />
             )}
