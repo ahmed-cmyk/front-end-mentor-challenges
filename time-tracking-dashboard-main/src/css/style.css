@@ -22,15 +22,35 @@ body {
   font-size: 0.8rem; }
 
 .activity_card_top {
-  display: block;
-  background: #ff8c66;
-  width: 100%; }
+  display: flex;
+  width: 400px; }
 
 .activity_card_bottom {
-  display: block; }
+  display: flex;
+  position: absolute; }
 
 .activity_card_img {
-  background: transparent; }
+  display: block;
+  border-radius: 20px;
+  width: 100%; }
+
+.work {
+  background: #ff8c66; }
+
+.play {
+  background: #56c2e6; }
+
+.study {
+  background: #ff5c7c; }
+
+.exercise {
+  background: #4acf81; }
+
+.social {
+  background: #7536d3; }
+
+.self_care {
+  background: #f1c65b; }
 
 .button {
   background: transparent;
@@ -44,7 +64,8 @@ body {
 
 .card {
   display: flex;
-  margin-bottom: 5em; }
+  margin-bottom: 5em;
+  width: 19rem; }
   .card_left {
     flex-grow: 1; }
   .card_right {

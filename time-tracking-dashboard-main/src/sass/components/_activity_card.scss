@@ -1,15 +1,41 @@
 .activity_card {
     &_top {
-        display: block;
-        background: $light-red-work;
-        width: 100%;
+        display: flex;
+        width: 400px;
     }
 
     &_bottom {
-        display: block;
+        display: flex;
+        position: absolute;
     }
 
     &_img {
-        background: transparent;
+        display: block;
+        border-radius: 20px;
+        width: 100%;
     }
+}
+
+.work {
+    background: $light-red-work;
+}
+
+.play {
+    background: $soft-blue;
+}
+
+.study {
+    background: $light-red-study;
+}
+
+.exercise {
+    background: $lime-green;
+}
+
+.social {
+    background: $violet;
+}
+
+.self_care {
+    background: $soft-orange;
 }

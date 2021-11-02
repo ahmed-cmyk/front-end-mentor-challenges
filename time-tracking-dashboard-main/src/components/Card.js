@@ -1,15 +1,19 @@
 import React from 'react';
 
-import work from '../images/icon-work.svg'
+import CardHeader from './CardHeader'
 
 const Card = ({ card }) => {
     return(
         <div className="card">
             <div className="activity_card_top">
-                <img src={work} alt="work" className="activity_card_img" />
+                <CardHeader title={card.title} />
             </div>
             <div className="activity_card_bottom">
-                {card.title}
+                <div className="title">{card.title}</div>
+                <div className="info">
+                    <div className="info_current">{card.timeframes.daily.current}hrs</div>
+                    <div className="info_previous">Yesterday - {card.timeframes.daily.previous}hrs</div>
+                </div>
             </div>
         </div>
     )
