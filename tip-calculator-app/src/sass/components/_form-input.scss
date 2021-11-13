@@ -1,0 +1,11 @@
+input.form_input {
+    background-color: $light-grayish-cyan;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: $dark-grayish-cyan;
+}
+
+input:focus {
+    outline: none;
+}

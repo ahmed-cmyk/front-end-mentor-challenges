@@ -1,0 +1,52 @@
+body {
+  font-family: 'Space Mono', monospace; }
+
+.heading {
+  font-weight: 700; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #26c0ab; }
+
+.btn {
+  color: white;
+  background-color: #00494d;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 7px;
+  font-size: 24px; }
+
+.card {
+  background-color: white;
+  border-radius: 25px 25px 0 0;
+  max-height: 80%; }
+
+.cardContents {
+  width: 95%;
+  margin: auto 15px; }
+
+input.form_input {
+  background-color: #f4fafa;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #7f9c9f; }
+
+input:focus {
+  outline: none; }
+
+.tip_buttons {
+  text-align: center; }
+
+.tip_buttons button, .tip input {
+  width: 10rem;
+  margin: 5px; }
+
+.section {
+  margin: 25px 0; }

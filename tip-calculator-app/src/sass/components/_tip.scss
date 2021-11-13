@@ -1,0 +1,10 @@
+.tip {
+    &_buttons {
+        text-align: center;
+    }
+
+    &_buttons button, input {
+        width: 10rem;
+        margin: 5px;
+    }
+}
