@@ -1,0 +1,9 @@
+.container {
+    width: 90vw;
+    margin: 2rem auto;
+    text-align: center;
+
+    @media (min-width: 500px) {
+        width: 25rem;
+    }
+}

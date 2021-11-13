@@ -1,0 +1,14 @@
+body {
+    background: url('../images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $very-pale-blue;
+    min-height: 100vh;
+
+    @media (min-width: 500px) {
+        background: url('../images/pattern-background-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: $very-pale-blue;
+    }
+}

@@ -1,0 +1,23 @@
+.subscription {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: $very-pale-blue;
+
+    &_icon {
+        flex-grow: 1;
+    }
+
+    &_price {
+        flex-grow: 1;
+    }
+
+    &_link {
+        flex-grow: 1;
+    }
+}

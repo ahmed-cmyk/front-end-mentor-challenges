@@ -1,0 +1,82 @@
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px; }
+
+.bottom_30 {
+  margin-bottom: 1.5rem; }
+
+.bold_700 {
+  font-weight: 700; }
+
+.bold_900 {
+  font-weight: 900; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f5f7ff;
+  min-height: 100vh; }
+  @media (min-width: 500px) {
+    body {
+      background: url("../images/pattern-background-desktop.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #f5f7ff; } }
+
+button.btn {
+  width: 90%;
+  padding: 1rem .8rem;
+  border: none;
+  border-radius: 9px;
+  margin: auto; }
+  button.btn_pay {
+    color: #fff;
+    background-color: #3829e0;
+    box-shadow: 0 5px 15px #d3d3d3; }
+  button.btn_cancel {
+    color: #7280a7;
+    background-color: transparent; }
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff; }
+
+.hero_image {
+  width: 100%; }
+
+.paragraph_summary {
+  color: #7280a7; }
+
+.subscription {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f5f7ff; }
+  .subscription_icon {
+    flex-grow: 1; }
+  .subscription_price {
+    flex-grow: 1; }
+  .subscription_link {
+    flex-grow: 1; }
+
+.container {
+  width: 90vw;
+  margin: 2rem auto;
+  text-align: center; }
+  @media (min-width: 500px) {
+    .container {
+      width: 25rem; } }
